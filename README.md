@@ -28,7 +28,7 @@ We further evaluated the **transferability** of these adversarial samples to Den
 |--------|----|--------|-------------|
 | FGSM   | 0.02 | 1 | Fast one-step gradient method |
 | PGD    | 0.02 | 15 | Iterative FGSM with ε-ball projection |
-| Patch  | 0.3 / 0.5 | 50 | Localized patch (48×48), repositioned every 10 steps |
+| Patch  | 0.3 / 0.5 | 50 | Localized patch (32×32), repositioned every 10 steps |
 
 ---
 
@@ -38,20 +38,21 @@ We further evaluated the **transferability** of these adversarial samples to Den
 
 | Attack   | Top-1 (%) | Top-5 (%) |
 |----------|-----------|-----------|
-| Clean    | 76.00     | 94.20     |
+| Original    | 76.00     | 94.20     |
 | FGSM     | 3.40      | 21.20     |
 | PGD      | 0.00      | 1.40      |
-| Patch ε=0.3 | 0.20  | 14.80     |
-| Patch ε=0.5 | 0.00  | 13.00     |
+| Targeted Patch ε=0.5 | 0.00  | 13.00     |
+| Untargeted Patch ε=0.5 | 0.00  | 13.00     |
 
 ### Transferability to DenseNet-121
 
 | Attack   | Top-1 (%) | Top-5 (%) |
 |----------|-----------|-----------|
+| Original    | 76.00     | 94.20     |
 | FGSM     | 45.60     | 76.20     |
 | PGD      | 35.60     | 72.40     |
-| Patch ε=0.3 | 58.80  | 87.60     |
-| Patch ε=0.5 | 57.40  | 85.40     |
+| Targeted Patch ε=0.5 | 58.80  | 87.60     |
+| Untargeted Patch ε=0.5 | 57.40  | 85.40     |
 
 ---
 
