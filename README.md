@@ -148,6 +148,7 @@ DLProject03/
 │   ├── final_accuracy_barplot.png
 │   └── patch_accuracy_vs_epsilon.png
 │
+├── rj2719_lnd2037_sk11634_DLProjectReport03.pdf
 ├── AdversarialTestSet1.zip       # FGSM ε=0.02
 ├── AdversarialTestSet2.zip       # PGD ε=0.02
 ├── AdversarialTestSet3.zip       # Patch ε=0.5
