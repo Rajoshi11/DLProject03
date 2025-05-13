@@ -134,7 +134,7 @@ No additional training was performed; all models are pre-trained (ImageNet)
 
 
 # Directory Structure
-
+```
 DLProject03/
 │
 ├── DLProj03.ipynb                # Main notebook
@@ -153,3 +153,4 @@ DLProject03/
 ├── AdversarialTestSet3.zip       # Patch ε=0.5
 │
 └── README.md                     # Full project overview
+```
