@@ -154,6 +154,8 @@ DLProject03/
 ├── Visualizations/               # All attack visualizations
 │   ├── FGSM_ε=0.02.png
 │   ├── PGD_ε=0.02.png
+│   ├── Targeted_Patch_Attack_ε=0.3.png
+│   ├── Targeted_Patch_Attack_ε=0.3.png
 │   ├── Patch_Attack_ε=0.3.png
 │   ├── Patch_Attack_ε=0.5.png
 │   ├── final_accuracy_barplot.png
