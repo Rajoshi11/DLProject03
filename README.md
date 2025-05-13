@@ -150,6 +150,7 @@ No additional training was performed; all models are pre-trained (ImageNet)
 DLProject03/
 │
 ├── DLProj03.ipynb                # Main notebook
+├── final_results.csv
 │
 ├── Visualizations/               # All attack visualizations
 │   ├── FGSM_ε=0.02.png
@@ -158,7 +159,8 @@ DLProject03/
 │   ├── Targeted_Patch_Attack_ε=0.3.png
 │   ├── Patch_Attack_ε=0.3.png
 │   ├── Patch_Attack_ε=0.5.png
-│   ├── final_accuracy_barplot.png
+│   ├── final_top1_accuracy_barplot.png
+│   ├── final_top5_accuracy_barplot.png
 │   └── patch_accuracy_vs_epsilon.png
 │
 ├── rj2719_lnd2037_sk11634_DLProjectReport03.pdf
