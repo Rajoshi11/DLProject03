@@ -138,7 +138,6 @@ No additional training was performed; all models are pre-trained (ImageNet)
 DLProject03/
 │
 ├── DLProj03.ipynb                # Main notebook
-├── final_results.csv             # Top-1 / Top-5 accuracy summary
 │
 ├── Visualizations/               # All attack visualizations
 │   ├── FGSM_ε=0.02.png
