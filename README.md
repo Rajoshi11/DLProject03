@@ -36,23 +36,27 @@ We further evaluated the **transferability** of these adversarial samples to Den
 
 ### Accuracy on ResNet-34
 
-| Attack   | Top-1 (%) | Top-5 (%) |
-|----------|-----------|-----------|
-| Original    | 76.00     | 94.20     |
-| FGSM     | 3.40      | 21.20     |
-| PGD      | 0.00      | 1.40      |
-| Targeted Patch ε=0.5 | 0.00  | 13.00     |
-| Untargeted Patch ε=0.5 | 0.00  | 13.00     |
+### Accuracy on ResNet-34
+
+| Attack                  | Top-1 (%) | Top-5 (%) |
+|-------------------------|-----------|-----------|
+| Clean (No attack)       | 76.00     | 94.20     |
+| FGSM (ε = 0.02)         | 3.80      | 21.00     |
+| PGD  (ε = 0.02)         | 0.00      | 1.40      |
+| Targeted Patch (ε = 0.3)| 3.80      | 25.60     |
+| Targeted Patch (ε = 0.5)| 3.00      | 17.60     |
+| Untargeted Patch (ε = 0.3) | 3.60   | 38.20     |
+| Untargeted Patch (ε = 0.5) | 2.00   | 26.00     |
 
 ### Transferability to DenseNet-121
 
-| Attack   | Top-1 (%) | Top-5 (%) |
-|----------|-----------|-----------|
-| Original    | 76.00     | 94.20     |
-| FGSM     | 45.60     | 76.20     |
-| PGD      | 35.60     | 72.40     |
-| Targeted Patch ε=0.5 | 58.80  | 87.60     |
-| Untargeted Patch ε=0.5 | 57.40  | 85.40     |
+| Attack                   | Top-1 (%) | Top-5 (%) |
+|--------------------------|-----------|-----------|
+| Clean (No attack)        | 74.60     | 93.60     |
+| FGSM → DenseNet-121      | 45.60     | 75.80     |
+| PGD → DenseNet-121       | 34.80     | 73.20     |
+| Targeted Patch → DenseNet-121 (ε = 0.5) | 69.20 | 89.20 |
+| Untargeted Patch → DenseNet-121 (ε = 0.5) | 64.80 | 89.20 |
 
 ---
 
