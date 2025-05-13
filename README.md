@@ -94,25 +94,26 @@ Untargeted Patch Attack (ε=0.5) visualization
 ```
 AdversarialTestSet1/ → FGSM (500 samples)
 AdversarialTestSet2/ → PGD (500 samples)
-AdversarialTestSet3/ → Patch ε=0.5 (500 samples)
+AdversarialTestSet3/targeted → Patch ε=0.5 (500 samples)
+AdversarialTestSet3/untargeted → Patch ε=0.5 (500 samples)
 ```
 
 
 # Plots included:
 
-- `final_accuracy_barplot`
+- `final_top1_accuracy_barplot`
 
-![final_accuracy_barplot](https://github.com/user-attachments/assets/2df59ec9-64bc-44d3-a732-ed0d021e0c4b)
+![final_accuracy_barplot](https://github.com/user-attachments/assets/a11fab1f-fdc6-4be1-bf9c-59514ac349b6)
 
 
 - `final_top5_accuracy_barplot`
 
-![final_top5_accuracy_barplot](https://github.com/user-attachments/assets/433a4872-8acf-4f4c-92f8-b753149d3ea4)
+![final_top5_accuracy_barplot](https://github.com/user-attachments/assets/321d3eed-0961-4056-8fcc-8c5021857eae)
 
 
 - `patch_accuracy_vs_epsilon`
 
-![patch_accuracy_vs_epsilon](https://github.com/user-attachments/assets/cd3e6899-e1e6-4ab9-b989-39b534160dd6)
+![patch_accuracy_vs_epsilon](https://github.com/user-attachments/assets/c5f27e63-c999-4ff0-b14e-881ddf333d52)
 
 
 ---
