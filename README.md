@@ -68,19 +68,27 @@ For each attack, we provide:
 
 FGSM (ε=0.02) visualization of 3–5 adversarial examples
 
-![FGSM_ε=0 02](https://github.com/user-attachments/assets/b1915c3f-2116-4fa7-ad6a-ab850ac1373c)
+![FGSM_ε=0 02](https://github.com/user-attachments/assets/9c313347-1c41-4f67-8b55-608261f67d28)
 
 PGD (ε=0.02) visual comparison
 
-![PGD_ε=0 02](https://github.com/user-attachments/assets/1dd58a1f-47ff-43a7-800f-0f92302baa76)
+![PGD_ε=0 02](https://github.com/user-attachments/assets/8b1997f7-0735-4be5-9947-7fc360234749)
 
-Patch Attack (ε=0.3) visualization
+Targeted Patch Attack (ε=0.3) visualization
 
-![Patch_Attack_ε=0 3](https://github.com/user-attachments/assets/531acf96-4310-4526-96f3-816a8ba9a410)
+![Targeted_Patch_Attack_ε=0 3](https://github.com/user-attachments/assets/a8812999-95dc-4294-a233-28f7aa08bb7a)
 
-Patch Attack (ε=0.5) visualization
+Targeted Patch Attack (ε=0.5) visualization
 
-![Patch_Attack_ε=0 5](https://github.com/user-attachments/assets/b5096589-2b56-4a75-8da5-c06a330a882b)
+![Targeted_Patch_Attack_ε=0 5](https://github.com/user-attachments/assets/535d1c8a-9fe6-4438-b8d9-17e74fa62cb6)
+
+Untargeted Patch Attack (ε=0.3) visualization
+
+![Patch_Attack_ε=0 3](https://github.com/user-attachments/assets/2840b7e3-4801-40fe-80cd-e18c883c7635)
+
+Untargeted Patch Attack (ε=0.5) visualization
+
+![Patch_Attack_ε=0 5](https://github.com/user-attachments/assets/df52fe2f-c30d-42cb-b351-de8671897533)
 
 
 **Saved image folders**:
