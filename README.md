@@ -36,8 +36,6 @@ We further evaluated the **transferability** of these adversarial samples to Den
 
 ### Accuracy on ResNet-34
 
-### Accuracy on ResNet-34
-
 | Attack                  | Top-1 (%) | Top-5 (%) |
 |-------------------------|-----------|-----------|
 | Clean (No attack)       | 76.00     | 94.20     |
